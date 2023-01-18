@@ -1,2 +1,4 @@
 project_secrets.py
 pico.code-workspace
+pyproject.toml
+poetry.lock
