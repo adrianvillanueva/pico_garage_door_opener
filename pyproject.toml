@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pico_garage_door_opener"
+version = "0.1.0"
+description = ""
+authors = ["Adrian Villanueva"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+Jinja2 = "^3.1.2"
+pyyaml = "^6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
